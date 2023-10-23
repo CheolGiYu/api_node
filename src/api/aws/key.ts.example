@@ -1,0 +1,15 @@
+atype keyData = {
+	accessKeyId: string;
+	secretAccessKey: string;
+	region: string;
+	bucket: string;
+}
+
+const S3Key: keyData = {
+	accessKeyId: "",
+	secretAccessKey: "",
+	region: 'ap-northeast-2',
+	bucket: '',
+}
+
+module.exports = {S3Key:S3Key};

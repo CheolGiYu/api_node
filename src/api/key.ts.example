@@ -1,0 +1,17 @@
+const apikey:{ apiKey: string; uuid: string; host: string}[] = [
+  {
+    apiKey: '',
+    uuid: '',
+    host: ''
+  },
+  {
+    apiKey: '',
+    uuid: '',
+    host: ''
+  },
+];
+
+
+module.exports = {
+  apikey: apikey
+};
